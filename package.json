@@ -26,5 +26,8 @@
     "generate:cloudformation": "node cloud-deployments/aws/cloudformation/generate.mjs",
     "generate::gcp_deployment": "node cloud-deployments/gcp/deployment/generate.mjs"
   },
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }
